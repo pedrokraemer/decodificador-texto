@@ -1,0 +1,49 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.areas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#campo1 {
+    width: 400px;
+    height: 500px;
+    border: 2px solid rgb(28, 162, 196);
+    padding: 5px;
+    background-color: whitesmoke;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 20px;
+}
+
+#campo2 {
+    width: 400px;
+    height: 500px;
+    border: 2px solid rgb(28, 162, 196);
+    padding: 5px;
+    background-color: whitesmoke;
+    font-size: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.botoes {
+    margin-left: 15.1%;
+    width: 100%;
+    display: inline-block;
+}
+
+.botao1,
+.botao2 {
+    justify-content: center;
+    width: 200px;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}
