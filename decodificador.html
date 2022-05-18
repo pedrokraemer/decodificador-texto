@@ -1,34 +1,36 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="estilos/estilo.css" rel="stylesheet">
-    <title>Document</title>
+    <title>inri cripto</title>
 </head>
 <header>
+    <img src="pray.png">
     <h1>Inri Cripto</h1>
+    <img src="pray.png">
 </header>
 
 <body>
     <div class="areas">
-        <div class="principal">
-            <div class="codificador">
-                <textarea name="" id="campo1" placeholder="Digite seu texto, apenas letras minúsculas e sem acento"></textarea>
-            </div>
-        </div>
-        <div class="decodificador">
-            <textarea readonly name="" id="campo2" placeholder="Texto Criptografado"></textarea>
-            <div id="copy"></div>
-        </div>
-        <br>
+        <section>
+            <textarea class="codificador" cols="40" rows="10" placeholder="Digite seu texto, apenas letras minúsculas e sem acento"></textarea>
+        </section>
+
+        <section>
+            <textarea class="decodificador" cols="40" rows="10" placeholder="Texto Criptografado"></textarea>
+        </section>
+
+        <div id="copy"></div>
     </div>
-    </div>
+    <br>
     <div class="botoes">
-        <button class="botao1">Criptografar</button>
-        <button class="botao2">Descriptografar</button>
+        <button class="botao1" onclick="btnEncriptar()">Criptografar</button>
+        <button class="botao2" onclick="btnDesencriptar()">Descriptografar</button>
+        <button id="copy">Copiar</button>
     </div>
 
     <script src="script.js"></script>
